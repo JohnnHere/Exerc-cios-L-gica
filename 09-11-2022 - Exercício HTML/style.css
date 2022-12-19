@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: #050505;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+}
+
+.container {
+  text-align: center;
+  justify-content: center;
+  background-image: url(img\ rengoku/fire.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+.list a {
+  text-decoration: none;
+  color: lightblue;
+}
+
+.list a:hover {
+  color: lightgreen;
+}
+
+.video {
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  max-width: 100%;
+}
+
+footer {
+  text-align: center;
+  max-width: 100%;
+}
